@@ -1,0 +1,17 @@
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.abstractions.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\harryPotterKata2.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\harryPotterKata2.pdb
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.assert.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.core.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.execution.desktop.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.assert.xml
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.core.xml
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\bin\Debug\xunit.execution.desktop.xml
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\obj\Debug\harryPotterKata2.csprojAssemblyReference.cache
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\obj\Debug\harryPotterKata2.csproj.CoreCompileInputs.cache
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\obj\Debug\harryPotterKata2.csproj.CopyComplete
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\obj\Debug\harryPotterKata2.dll
+C:\Users\sarah.weeks\source\repos\harryPotterKata2\harryPotterKata2\obj\Debug\harryPotterKata2.pdb
