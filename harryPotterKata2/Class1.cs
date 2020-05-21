@@ -64,5 +64,25 @@ namespace harryPotterKata2
             //Assert
             Assert.Equal(25.60, basket.getTotalPrice());
         }
+
+        [Fact]
+        public void five_different_books_you_get_a_twenty_five_percent_discount()
+        {
+            //Assign
+            Book volume1 = new Book("V1");
+            Book volume2 = new Book("V2");
+            Book volume3 = new Book("V3");
+            Book volume4 = new Book("V4");
+            Book volume5 = new Book("V5");
+            Basket basket = new Basket();
+            //Act
+            basket.add(volume1);
+            basket.add(volume2);
+            basket.add(volume3);
+            basket.add(volume4);
+            basket.add(volume5);
+            //Assert
+            Assert.Equal(30.00, basket.getTotalPrice());
+        }
     }
 }

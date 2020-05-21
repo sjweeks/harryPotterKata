@@ -23,6 +23,7 @@ namespace harryPotterKata2
             double fivePercentDiscount = 0.95;
             double tenPercentDiscount = 0.90;
             double twentyPercentDiscount = 0.80;
+            double twentyFivePercentDiscount = 0.75;
             foreach (var book in books)
             {
                 basketTotal += book.GetPrice();
@@ -38,6 +39,10 @@ namespace harryPotterKata2
             else if(books.Distinct().Count() == 4)
             {
                 basketTotal *= twentyPercentDiscount;
+            }
+            else if(books.Distinct().Count() == 5)
+            {
+                basketTotal *= twentyFivePercentDiscount;
             }
             return basketTotal;
         }
