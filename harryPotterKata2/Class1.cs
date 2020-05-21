@@ -26,9 +26,10 @@ namespace harryPotterKata2
             Basket basket = new Basket();
             //Act
             basket.add(volume1);
+            basket.add(volume1);
             basket.add(volume2);
             //Assert
-            Assert.Equal(15.20, basket.getTotalPrice());
+            Assert.Equal(23.20, basket.getTotalPrice());
         }
 
         [Fact]
@@ -41,10 +42,11 @@ namespace harryPotterKata2
             Basket basket = new Basket();
             //Act
             basket.add(volume1);
+            basket.add(volume1);
             basket.add(volume2);
             basket.add(volume3);
             //Assert
-            Assert.Equal(21.60, basket.getTotalPrice());
+            Assert.Equal(29.60, basket.getTotalPrice());
         }
 
         [Fact]
@@ -58,11 +60,12 @@ namespace harryPotterKata2
             Basket basket = new Basket();
             //Act
             basket.add(volume1);
+            basket.add(volume1);
             basket.add(volume2);
             basket.add(volume3);
             basket.add(volume4);
             //Assert
-            Assert.Equal(25.60, basket.getTotalPrice());
+            Assert.Equal(33.60, basket.getTotalPrice());
         }
 
         [Fact]
@@ -77,12 +80,14 @@ namespace harryPotterKata2
             Basket basket = new Basket();
             //Act
             basket.add(volume1);
+            basket.add(volume1);
+            basket.add(volume2);
             basket.add(volume2);
             basket.add(volume3);
             basket.add(volume4);
             basket.add(volume5);
             //Assert
-            Assert.Equal(30.00, basket.getTotalPrice());
+            Assert.Equal(46.00, basket.getTotalPrice());
         }
     }
 }

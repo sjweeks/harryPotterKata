@@ -20,6 +20,7 @@ namespace harryPotterKata2
         internal double getTotalPrice()
         {
             double basketTotal = 0;
+            double discountTotal = 0;
             double fivePercentDiscount = 0.95;
             double tenPercentDiscount = 0.90;
             double twentyPercentDiscount = 0.80;
@@ -30,19 +31,27 @@ namespace harryPotterKata2
             }
             if (books.Distinct().Count() == 2)
             {
-                basketTotal *= fivePercentDiscount;
+                discountTotal = (2 * 8) * fivePercentDiscount;
+
+                basketTotal = discountTotal + ((books.Count() - 2) * 8);
             }
             else if (books.Distinct().Count() == 3)
             {
-                basketTotal *= tenPercentDiscount;
+                discountTotal = (3 * 8) * tenPercentDiscount;
+
+                basketTotal = discountTotal + ((books.Count() - 3) * 8);
             }
             else if(books.Distinct().Count() == 4)
             {
-                basketTotal *= twentyPercentDiscount;
+                discountTotal = (4 * 8) * twentyPercentDiscount;
+
+                basketTotal = discountTotal + ((books.Count() - 4) * 8);
             }
             else if(books.Distinct().Count() == 5)
             {
-                basketTotal *= twentyFivePercentDiscount;
+                discountTotal = (5 * 8) * twentyFivePercentDiscount;
+
+                basketTotal = discountTotal + ((books.Count() - 5) * 8);
             }
             return basketTotal;
         }
